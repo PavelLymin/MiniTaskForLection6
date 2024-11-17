@@ -29,7 +29,19 @@ namespace TestsForMyTask
         public void Return_Right_Format()
         {
             MyTask myTask = new MyTask();
-            string check = myTask.FormattingText(["20 3", "  Привет!  ", " Напиши мне.  ", "    Пока =) "]); Assert.Equal("      Привет!       \n    Напиши мне.     \n      Пока =)       ", check);
+            string[] strings = { "20 3", "  Привет!  ", " Напиши мне.  ", "    Пока =) " };
+            string check = myTask.FormattingText(strings); 
+            Assert.Equal( "      Привет!       \n    Напиши мне.     \n      Пока =)       ", check);
         }
+
+        [Fact]
+        public void Return_Impossible_Format()
+        {
+            MyTask myTask = new MyTask();
+            string[] strings = { "5 1","Привет." };
+            string check = myTask.FormattingText(strings);
+            Assert.Equal("Impossible.", check);
+        }
+
     }
 }

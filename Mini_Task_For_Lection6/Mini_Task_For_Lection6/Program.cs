@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using System.Text;
 
 namespace Mini_Task_For_Lection6
 {
@@ -9,18 +8,9 @@ namespace Mini_Task_For_Lection6
     {
         public string[] GetText()
         {
-            try
+            using (StringReader reader = new StringReader("20 3\n  Привет!  \n Напиши мне.  \n    Пока =) "))
             {
-                string path1 = @"Input.txt";
-                var srcEncoding = Encoding.GetEncoding("UTF-8");
-                using (StreamReader reader = new StreamReader(path1, encoding: srcEncoding))
-                {
-                    return reader.ReadToEnd().Split('\n');
-                }
-            }
-            catch
-            {
-                throw new Exception("Не найден файл");
+                return reader.ReadToEnd().Split('\n');
             }
         }
 
@@ -36,17 +26,22 @@ namespace Mini_Task_For_Lection6
             return k - text.Length;
         }
 
-        public void WriteImposibleToTextFile(string text)
+        public void WriteResult(string text)
         {
-            File.WriteAllText("Output.TXT", text);
+            File.AppendAllText("Output.txt", text);
+            using (StringWriter writer = new StringWriter())
+            {
+                writer.Write(text);
+                Console.WriteLine(writer.ToString());
+            }
         }
 
         public string TextFormation(int spaceBegin, int spaceEnd, string text, int index, int n)
         {
             if (index < n)
-                return new string(' ', spaceBegin) + text.Trim() + new string(' ', spaceEnd) + '\n';
+                return new string(' ', spaceBegin) + text + new string(' ', spaceEnd) + '\n';
             else
-                return new string(' ', spaceBegin) + text.Trim() + new string(' ', spaceEnd);
+                return new string(' ', spaceBegin) + text + new string(' ', spaceEnd);
         }
 
         public int ParseInt(string text)
@@ -91,9 +86,9 @@ namespace Mini_Task_For_Lection6
             try
             {
                 string text = myTask.FormattingText(myTask.GetText());
-                myTask.WriteImposibleToTextFile(text);
+                myTask.WriteResult(text);
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
