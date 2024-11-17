@@ -1,7 +1,5 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
-using System.Reflection;
 
 namespace Mini_Task_For_Lection6
 {
@@ -32,9 +30,9 @@ namespace Mini_Task_For_Lection6
         public string TextFormation(int spaceBegin, int spaceEnd, string text, int index, int n)
         {
             if (index < n)
-                return new string('+', spaceBegin) + text.Trim() + new string('+', spaceEnd) + '\n';
+                return new string(' ', spaceBegin) + text.Trim() + new string(' ', spaceEnd) + '\n';
             else
-                return new string('+', spaceBegin) + text.Trim() + new string('+', spaceEnd);
+                return new string(' ', spaceBegin) + text.Trim() + new string(' ', spaceEnd);
         }
 
         public string FormattingText(string[] strings)
@@ -70,7 +68,7 @@ namespace Mini_Task_For_Lection6
             MyTask myTask = new MyTask();
 
             string text = myTask.FormattingText(myTask.GetText());
-            Console.WriteLine(text);    
+            myTask.WriteImposibleToTextFile(text);
         }
     }
 }
