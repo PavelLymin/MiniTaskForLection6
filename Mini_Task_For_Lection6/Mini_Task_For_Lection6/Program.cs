@@ -1,5 +1,7 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Linq;
+using System.Text;
 
 namespace Mini_Task_For_Lection6
 {
@@ -7,7 +9,19 @@ namespace Mini_Task_For_Lection6
     {
         public string[] GetText()
         {
-            return File.ReadAllLines("Input.txt");
+            try
+            {
+                string path1 = @"Input.txt";
+                var srcEncoding = Encoding.GetEncoding("UTF-8");
+                using (StreamReader reader = new StreamReader(path1, encoding: srcEncoding))
+                {
+                    return reader.ReadToEnd().Split('\n');
+                }
+            }
+            catch
+            {
+                throw new Exception("Не найден файл");
+            }
         }
 
         public bool CheckingPossibilityOfFormatting(string text, int k)
@@ -35,12 +49,19 @@ namespace Mini_Task_For_Lection6
                 return new string(' ', spaceBegin) + text.Trim() + new string(' ', spaceEnd);
         }
 
+        public int ParseInt(string text)
+        {
+            if (int.TryParse(text, out var number))
+                return number;
+            throw new Exception("Нельзя преобразовать в целое число");
+        }
+
         public string FormattingText(string[] strings)
         {
             string text = "";
             string firstLine = strings[0];
-            int k = int.Parse(firstLine.Split(' ')[0]);
-            int n = int.Parse(firstLine.Split(' ')[1]);
+            int k = ParseInt(firstLine.Split(' ')[0]);
+            int n = ParseInt(firstLine.Split(' ')[1]);
 
             for (int i = 1; i < strings.Count(); i++) 
             {
@@ -67,8 +88,15 @@ namespace Mini_Task_For_Lection6
         {
             MyTask myTask = new MyTask();
 
-            string text = myTask.FormattingText(myTask.GetText());
-            myTask.WriteImposibleToTextFile(text);
+            try
+            {
+                string text = myTask.FormattingText(myTask.GetText());
+                myTask.WriteImposibleToTextFile(text);
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }
