@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PavelL\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\Mini_Task_For_Lection6\\",
+  "WorkspaceRootPath": "C:\\Users\\PavelL\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\\u041C\u0438\u043D\u0438\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Mini_Task_For_Lection6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E58215B7-BAA0-4644-864B-E7C6DCF6D32B}|TestsForMyTask\\TestsForMyTask.csproj|c:\\users\\pavell\\desktop\\\u043F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\mini_task_for_lection6\\testsformytask\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E58215B7-BAA0-4644-864B-E7C6DCF6D32B}|TestsForMyTask\\TestsForMyTask.csproj|solutionrelative:testsformytask\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB3AA89D-6757-4265-A801-BECE4A89A9CF}|Mini_Task_For_Lection6\\Mini_Task_For_Lection6.csproj|C:\\Users\\PavelL\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\\u041C\u0438\u043D\u0438\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Mini_Task_For_Lection6\\mini_task_for_lection6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3AA89D-6757-4265-A801-BECE4A89A9CF}|Mini_Task_For_Lection6\\Mini_Task_For_Lection6.csproj|solutionrelative:mini_task_for_lection6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB3AA89D-6757-4265-A801-BECE4A89A9CF}|Mini_Task_For_Lection6\\Mini_Task_For_Lection6.csproj|C:\\Users\\PavelL\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\Mini_Task_For_Lection6\\mini_task_for_lection6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB3AA89D-6757-4265-A801-BECE4A89A9CF}|Mini_Task_For_Lection6\\Mini_Task_For_Lection6.csproj|solutionrelative:mini_task_for_lection6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E58215B7-BAA0-4644-864B-E7C6DCF6D32B}|TestsForMyTask\\TestsForMyTask.csproj|c:\\users\\pavell\\desktop\\\u043F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\\u043C\u0438\u043D\u0438\u0437\u0430\u0434\u0430\u043D\u0438\u0435\\mini_task_for_lection6\\testsformytask\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E58215B7-BAA0-4644-864B-E7C6DCF6D32B}|TestsForMyTask\\TestsForMyTask.csproj|solutionrelative:testsformytask\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +18,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\PavelL\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\Mini_Task_For_Lection6\\TestsForMyTask\\UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\PavelL\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\\u041C\u0438\u043D\u0438\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Mini_Task_For_Lection6\\TestsForMyTask\\UnitTest1.cs",
               "RelativeDocumentMoniker": "TestsForMyTask\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\PavelL\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\Mini_Task_For_Lection6\\TestsForMyTask\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\PavelL\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\\u041C\u0438\u043D\u0438\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Mini_Task_For_Lection6\\TestsForMyTask\\UnitTest1.cs",
               "RelativeToolTip": "TestsForMyTask\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -35,13 +35,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PavelL\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\Mini_Task_For_Lection6\\Mini_Task_For_Lection6\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\PavelL\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\\u041C\u0438\u043D\u0438\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Mini_Task_For_Lection6\\Mini_Task_For_Lection6\\Program.cs",
               "RelativeDocumentMoniker": "Mini_Task_For_Lection6\\Program.cs",
-              "ToolTip": "C:\\Users\\PavelL\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\Mini_Task_For_Lection6\\Mini_Task_For_Lection6\\Program.cs",
-              "RelativeToolTip": "Mini_Task_For_Lection6\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\PavelL\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\\u041C\u0438\u043D\u0438\u0417\u0430\u0434\u0430\u043D\u0438\u0435\\Mini_Task_For_Lection6\\Mini_Task_For_Lection6\\Program.cs*",
+              "RelativeToolTip": "Mini_Task_For_Lection6\\Program.cs*",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T05:40:09.295Z",
               "EditorCaption": ""

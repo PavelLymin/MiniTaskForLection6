@@ -949,11 +949,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PavelL\\Desktop\\Построение информационных систем\\Mini_Task_For_Lection6\\TestsForMyTask\\TestsForMyTask.csproj",
+      "projectUniqueName": "C:\\Users\\PavelL\\Desktop\\Построение информационных систем\\МиниЗадание\\Mini_Task_For_Lection6\\TestsForMyTask\\TestsForMyTask.csproj",
       "projectName": "TestsForMyTask",
-      "projectPath": "C:\\Users\\PavelL\\Desktop\\Построение информационных систем\\Mini_Task_For_Lection6\\TestsForMyTask\\TestsForMyTask.csproj",
+      "projectPath": "C:\\Users\\PavelL\\Desktop\\Построение информационных систем\\МиниЗадание\\Mini_Task_For_Lection6\\TestsForMyTask\\TestsForMyTask.csproj",
       "packagesPath": "C:\\Users\\PavelL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PavelL\\Desktop\\Построение информационных систем\\Mini_Task_For_Lection6\\TestsForMyTask\\obj\\",
+      "outputPath": "C:\\Users\\PavelL\\Desktop\\Построение информационных систем\\МиниЗадание\\Mini_Task_For_Lection6\\TestsForMyTask\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
