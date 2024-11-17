@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 
 namespace Mini_Task_For_Lection6
 {
@@ -23,28 +24,42 @@ namespace Mini_Task_For_Lection6
             return k - text.Length;
         }
 
-        public void FormattingText(string[] strings)
+        public void WriteImposibleToTextFile(string text)
         {
+            File.WriteAllText("Output.TXT", text);
+        }
+
+        public string TextFormation(int spaceBegin, int spaceEnd, string text, int index, int n)
+        {
+            if (index < n)
+                return new string('+', spaceBegin) + text.Trim() + new string('+', spaceEnd) + '\n';
+            else
+                return new string('+', spaceBegin) + text.Trim() + new string('+', spaceEnd);
+        }
+
+        public string FormattingText(string[] strings)
+        {
+            string text = "";
             string firstLine = strings[0];
             int k = int.Parse(firstLine.Split(' ')[0]);
             int n = int.Parse(firstLine.Split(' ')[1]);
 
-            foreach (string text in strings.Skip(1)) 
+            for (int i = 1; i < strings.Count(); i++) 
             {
-                if (!CheckingPossibilityOfFormatting(text.Trim(), k))
+                if (!CheckingPossibilityOfFormatting(strings[i].Trim(), k))
                 {
-                    File.WriteAllText("Output.TXT", "Impossible.");
+                    text = "Impossible.";
                     break;
                 }
                 else
                 {
-                    int numberSpaces = RequiredNumberOfSpaces(text.Trim(), k);
+                    int numberSpaces = RequiredNumberOfSpaces(strings[i].Trim(), k);
                     int spacesAtBeginning = numberSpaces / 2;
                     int spacesAtEnd = numberSpaces - spacesAtBeginning;
-
-                    File.AppendAllText("Output.txt", new string('+', spacesAtBeginning) + text.Trim() + new string('+', spacesAtEnd) + '\n');
+                    text += TextFormation(spacesAtBeginning, spacesAtEnd, strings[i].Trim(), i, n);
                 }
             }
+            return text;
         }
     }
 
@@ -54,9 +69,8 @@ namespace Mini_Task_For_Lection6
         {
             MyTask myTask = new MyTask();
 
-            myTask.FormattingText(myTask.GetText());
-
-            Console.WriteLine(13 / 2);
+            string text = myTask.FormattingText(myTask.GetText());
+            Console.WriteLine(text);    
         }
     }
 }

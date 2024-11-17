@@ -16,7 +16,7 @@ namespace TestsForMyTask
         public void CheckLenght_WhenLenghtTextLessWidth_ReturnTrue()
         {
             MyTask myTask = new MyTask();
-            bool check = myTask.CheckingPossibilityOfFormatting("   RandomString   ");
+            bool check = myTask.CheckingPossibilityOfFormatting("   RandomString   ", 6);
             Assert.True(check);
         }
 
@@ -24,7 +24,7 @@ namespace TestsForMyTask
         public void Return_Right_Format()
         {
             MyTask myTask = new MyTask();
-            string check = myTask.FormattingText();
+            string check = myTask.FormattingText([]);
             Assert.Equal("      Привет!       ", check);
         }
     }
